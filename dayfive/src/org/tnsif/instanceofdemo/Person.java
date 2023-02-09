@@ -1,5 +1,7 @@
 package org.tnsif.instanceofdemo;
- //parent class
+//parent class
+
+
 public class Person {
 	
 private String name;

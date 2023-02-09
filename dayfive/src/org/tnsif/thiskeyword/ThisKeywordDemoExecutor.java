@@ -4,15 +4,15 @@ package org.tnsif.thiskeyword;
 
 class HR
 {
-	//void function(HR obj)
-	void function()
+	void function(HR obj)
+	//void function()
 	{
 		System.out.println("Human Resources");
 	}
 	void accept()
 	{
-		//function(this);
-		function();
+		function(this);
+		//function();
 	}
 }
 

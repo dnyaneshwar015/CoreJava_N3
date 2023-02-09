@@ -3,20 +3,22 @@ package org.tnsif.thiskeyword;
 
 class Mathematics{
 
-int a,b;
-Mathematics()
-{
-	a=10;
-	b=20;
-}
+	int a,b;
+	Mathematics()
+	{
+		a=10;
+		b=20;
+	}
 
-void display() {
+void display() 
+	{
 	System.out.println("a is:"+a);
 	System.out.println("b is:"+b);
 	}
-Mathematics accept() {
+Mathematics accept() 
+	{
 	return (this);
-}
+	}
 }
 
 
